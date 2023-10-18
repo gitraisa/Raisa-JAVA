@@ -17,8 +17,7 @@ public class Main {
             break;
             case "Saturday": System.out.println("It is Saturday.");
             break;
-            case "Default": System.out.println("Wrong Input!");
-            break;
+            default: System.out.println("Wrong Input!");
         }
     }
 }
